@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Sakurajima Mai💘
+title: Sakurajima Mai 💘
 subtitle: 人活着就是为了____
 description: 记录生活
 keywords: leetcode、vps、建站、学习
@@ -13,7 +13,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: http://110.40.154.69
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -55,6 +55,11 @@ prismjs:
   preprocess: true
   line_number: true
   tab_replace: ''
+
+# Embedding an image using markdown
+marked:
+  prependRoot: true
+  postAsset: true
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
