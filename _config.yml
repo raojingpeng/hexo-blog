@@ -4,8 +4,12 @@
 
 # Site
 title: Sakurajima Mai 💘
+<<<<<<< HEAD
 subtitle:
 #subtitle: 人活着就是为了____
+=======
+subtitle: 人活着就是为了____
+>>>>>>> 6202a924b3c0cfe72300c92575fed34b33f29a12
 description: Happy Coding
 keywords: leetcode、vps、建站、学习
 author: Ackerman
@@ -139,6 +143,7 @@ markdown:
     typographer: true # 印刷标识转换
   plugins:
     - markdown-it-emoji
+<<<<<<< HEAD
   anchors:
     level: 2
     collisionSuffix: ''
@@ -149,3 +154,5 @@ markdown:
     permalinkSymbol: ''
     case: 0
     separator: '-'
+=======
+>>>>>>> 6202a924b3c0cfe72300c92575fed34b33f29a12
