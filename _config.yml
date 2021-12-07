@@ -4,12 +4,8 @@
 
 # Site
 title: Sakurajima Mai 💘
-<<<<<<< HEAD
 subtitle:
 #subtitle: 人活着就是为了____
-=======
-subtitle: 人活着就是为了____
->>>>>>> 6202a924b3c0cfe72300c92575fed34b33f29a12
 description: Happy Coding
 keywords: leetcode、vps、建站、学习
 author: Ackerman
@@ -32,8 +28,8 @@ tag_dir: tags
 archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
-i18n_dir: 
-lang skip_render:
+i18n_dir: :lang
+skip_render:
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -42,7 +38,7 @@ titlecase: false # Transform title into titlecase
 external_link:
   enable: true # Open external links in new tab
   field: site # Apply to the whole site
-  exclude: ''
+  exclude: ""
 filename_case: 0
 render_drafts: false
 post_asset_folder: true
@@ -52,14 +48,14 @@ highlight:
   enable: true
   line_number: true
   auto_detect: false
-  tab_replace: ''
+  tab_replace: ""
   wrap: true
   hljs: false
 prismjs:
   enable: false
   preprocess: true
   line_number: true
-  tab_replace: ''
+  tab_replace: ""
 
 # Embedding an image using markdown
 #marked:
@@ -71,7 +67,7 @@ prismjs:
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
-  path: ''
+  path: ""
   per_page: 10
   order_by: -updated
   # order_by: -date
@@ -92,7 +88,7 @@ meta_generator: true
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 ## updated_option supports 'mtime', 'date', 'empty'
-updated_option: 'mtime'
+updated_option: "mtime"
 
 # Pagination
 ## Set per_page to 0 to disable pagination
@@ -114,7 +110,7 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: 'git'
+  type: "git"
   repo: git@110.40.154.69:/home/git/repo/blog.git
 
 search:
@@ -143,16 +139,13 @@ markdown:
     typographer: true # 印刷标识转换
   plugins:
     - markdown-it-emoji
-<<<<<<< HEAD
   anchors:
     level: 2
-    collisionSuffix: ''
+    collisionSuffix: ""
     permalink: true
-    permalinkClass: 'header-anchor'
-    permalinkSide: 'right'
+    permalinkClass: "header-anchor"
+    permalinkSide: "right"
     #permalinkSymbol: '¶'
-    permalinkSymbol: ''
+    permalinkSymbol: ""
     case: 0
-    separator: '-'
-=======
->>>>>>> 6202a924b3c0cfe72300c92575fed34b33f29a12
+    separator: "-"
