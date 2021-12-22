@@ -15,6 +15,7 @@ top: 100
 | #    | Title                                                        | Solutions                                                    | Tags                 | Difficulty          |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | -------------------- | ------------------- |
 | 11   | [盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/) | {% post_link 'solutions/11.container-with-most-water' golang %} | 双指针，贪心         | :star::star:        |
+| 42   | [接雨水](https://leetcode-cn.com/problems/trapping-rain-water/) | {% post_link 'solutions/42.trapping-rain-water' golang %}    | 双指针，动态规划     | :star::star::star:  |
 | 116  | [填充每个节点的下一个右侧节点指针](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/) | {% post_link 'solutions/116.populating-next-right-pointers-in-each-node' python %} | 二叉树，BFS，DFS     | :star::star:        |
 | 167  | [两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/) | {% post_link 'solutions/167.two-sum-ii-input-array-is-sorted' golang %} | 双指针               | :star:              |
 | 344  | [反转字符串](https://leetcode-cn.com/problems/reverse-string/) | {% post_link 'solutions/344.reverse-string' golang %}        | 双指针               | :star:              |

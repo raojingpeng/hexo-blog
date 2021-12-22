@@ -14,7 +14,8 @@ timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://110.40.154.69
+# url: http://110.40.154.69
+url: https://www.rjp.pub
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -110,8 +111,9 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: "git"
-  repo: git@110.40.154.69:/home/git/repo/blog.git
+  - type: "git"
+    repo: git@110.40.154.69:/home/git/repo/blog.git
+  - type: baidu_url_submitter
 
 search:
   path: search.xml
@@ -149,3 +151,9 @@ markdown:
     permalinkSymbol: ""
     case: 0
     separator: "-"
+
+baidu_url_submit:
+  count: 100                          # 提交最新的多少个链接
+  host: https://www.rjp.pub           # 在百度站长平台中添加的域名
+  token: 954m6N0U3CNWRxGv             # 秘钥
+  path: baidu_urls.txt                # 文本文档的地址,新链接会保存在此文本文档里
