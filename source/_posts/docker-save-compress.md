@@ -2,6 +2,8 @@
 title: docker save 时压缩镜像体积
 author: Ackerman
 date: 2021-12-09 23:19:59
+categories:
+- [Learning, Docker]
 tags:
 - docker
 ---
