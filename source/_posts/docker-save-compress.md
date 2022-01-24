@@ -18,6 +18,9 @@ docker save <dockernameortag> | gzip > mycontainer.tgz
 docker export <dockernameortag> | gzip > mycontainer.tgz
 
 # load
+# for save
 docker load -i mycontainer.tgz
+# for export
+docker import mycontainer.tgz dockername:dockertag
 ```
 

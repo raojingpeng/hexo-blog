@@ -144,19 +144,19 @@ type slice struct {
    import "fmt"
    
    func main() {
-   	arr1 := [5]int{1, 2, 3, 4, 5}
-   	slice1 := arr1[:2]
-   	// len(slice1) = 2
+       arr1 := [5]int{1, 2, 3, 4, 5}
+       slice1 := arr1[:2]
+       // len(slice1) = 2
        // cap(slice1) = 5
-   	slice1 = append(slice1, 6, 7)
-   	fmt.Printf("arr1:%v slice1:%v\n", arr1, slice1)
+       slice1 = append(slice1, 6, 7)
+       fmt.Printf("arr1:%v slice1:%v\n", arr1, slice1)
    
-   	arr2 := [5]int{1, 2, 3, 4, 5}
-   	slice2 := arr2[:3]
+       arr2 := [5]int{1, 2, 3, 4, 5}
+       slice2 := arr2[:3]
        // len(slice2) = 3
        // cap(slice2) = 5
-   	slice2 = append(slice2, 6, 7, 8)
-   	fmt.Printf("arr2:%v slice2:%v\n", arr2, slice2)
+       slice2 = append(slice2, 6, 7, 8)
+       fmt.Printf("arr2:%v slice2:%v\n", arr2, slice2)
    }
    ```
    
@@ -169,10 +169,8 @@ type slice struct {
 
    从以上结果可以发现，arr1 的值被“莫名”的改变了，arr2 的值却没有改变，这貌似不符合我们的预期。
 
-   首先
-   
    这里的原因是由于 slice 的容量值，限定了 slice 可容纳元素的最多个数，当我们往 slice 里添加新元素，导致元素个数超过容量时（len>cap），则需要对slice进行扩容（Growing slices）。append 方法的调用就是典型的扩容示例。
-
+   
    扩容步骤：
 
    1. 创建一个容量更大的 slice （扩容）。与对 slice 进行切片操作不同，这个 slice 是全新的，它的数组也是全新的，指针也是指向新数组的首位置。

@@ -35,6 +35,8 @@ top: 100
 | 123  | [买卖股票的最佳时机 III](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/) | {% post_link 'solutions/123.best-time-to-buy-and-sell-stock-iii' golang %} | 动态规划             | :star::star::star:<!-- more --> |
 | 141  | [环形链表](https://leetcode-cn.com/problems/linked-list-cycle/) | {% post_link 'solutions/141.linked-list-cycle' golang %}     | 双指针，快慢指针     | :star:                          |
 | 142  | [环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii/) | {% post_link 'solutions/142.linked-list-cycle-ii' golang %}  | 双指针，快慢指针     | :star::star::star:              |
+| 146  | [LRU 缓存](https://leetcode-cn.com/problems/lru-cache/)      | {% post_link 'solutions/146.lru-cache" golang %}             | 双向链表，哈希表     | :star::star:                    |
+| 155  | [最小栈](https://leetcode-cn.com/problems/min-stack/)        | {% post_link 'solutions/155.min-stack" golang %}             | 栈，设计             | :star:                          |
 | 160  | [相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/) | {% post_link 'solutions/160.intersection-of-two-linked-lists' golang %} | 双指针，链表         | :star:                          |
 | 167  | [两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/) | {% post_link 'solutions/167.two-sum-ii-input-array-is-sorted' golang %} | 双指针               | :star:                          |
 | 188  | [买卖股票的最佳时机 IV](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv/) | {% post_link 'solutions/188.best-time-to-buy-and-sell-stock-iv' golang %} | 动态规划             | :star::star::star:              |
@@ -45,6 +47,7 @@ top: 100
 | 695  | [岛屿的最大面积](https://leetcode-cn.com/problems/max-area-of-island/) | {% post_link 'solutions/695.max-area-of-island' golang %}    | BFS，DFS             | :star::star:                    |
 | 876  | [链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list/) | {% post_link 'solutions/876.middle-of-the-linked-list' golang %} | 双指针，快慢指针     | :star:                          |
 | 1154 | [一年中的第几天](https://leetcode-cn.com/problems/day-of-the-year/) | {% post_link 'solutions/1154.day-of-the-year' golang %}      | 字符串，数学         | :star:                          |
+| \    | [剑指 Offer 22. 链表中倒数第k个节点](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/) | {% post_link 'solutions/jz.lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof' golang %} | 链表，双指针         | :star:                          |
 
 
 
