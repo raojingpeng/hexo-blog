@@ -9,7 +9,6 @@ tags:
 - copy
 - slice
 - append
-top: 99
 ---
 
 ### copy

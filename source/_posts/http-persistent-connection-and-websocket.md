@@ -17,7 +17,7 @@ http1.1 默认使用长连接（Connection: Keep-alive），一次请求响应�
 
 图右开启了Keep-alive
 
-![img](http-persistent-connection-and-websocket/langzh-900px-HTTP_persistent_connection.png)
+![langzh-900px-HTTP_persistent_connection](http-persistent-connection-and-websocket/langzh-900px-HTTP_persistent_connection.png)
 
 但http本质上依然是客户端发起，服务端响应的模式，服务端无法主动推送数据，例如你想查询今天的天气，只能是客户端向服务器发起请求，服务器返回查询结果，做不到服务器主动推送消息
 
